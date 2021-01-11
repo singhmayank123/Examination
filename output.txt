@@ -1,0 +1,647 @@
+output:
+Microsoft Windows [Version 10.0.18363.1256]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Users\admin\Desktop\01 Information>javac Quesbank.java
+
+C:\Users\admin\Desktop\01 Information>java Quesbank
+-|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|---
+
+                                Welcome to test maker !
+
+-|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|---
+
+You are ?
+a. Admin
+b. User
+Enter: a
+
+Enter username: mayank123
+Enter password: 12345
+
+
+-|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|---
+
+                                        Hi! Admin.
+
+-|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|---
+
+a. Add an admin
+b. Delete an admin
+c. Search for an admin
+d. Show all admins
+e. Add a question
+f. Delete a question
+g. Show all questions
+Press q to go back..
+e
+
+Write your question: How are you??
+
+
+a. Add an admin
+b. Delete an admin
+c. Search for an admin
+d. Show all admins
+e. Add a question
+f. Delete a question
+g. Show all questions
+Press q to go back..
+g
+[How are you??]
+
+
+a. Add an admin
+b. Delete an admin
+c. Search for an admin
+d. Show all admins
+e. Add a question
+f. Delete a question
+g. Show all questions
+Press q to go back..
+e
+
+Write your question: ^C
+C:\Users\admin\Desktop\01 Information>javac Quesbank.java
+Quesbank.java:124: error: non-static variable questions cannot be referenced from a static context
+                                System.out.printf("\nThere are %d questions! All the best.",questions.size());
+                                                                                            ^
+Quesbank.java:126: error: non-static variable questions cannot be referenced from a static context
+                                for(int i = 0; i<questions.size(); i++){
+                                                 ^
+Quesbank.java:127: error: non-static variable questions cannot be referenced from a static context
+                                        System.out.println(questions[i]);
+                                                           ^
+Quesbank.java:127: error: array required, but ArrayList<String> found
+                                        System.out.println(questions[i]);
+                                                                    ^
+Quesbank.java:129: error: cannot find symbol
+                                        if(answers[i].equals(answer)){
+                                                             ^
+  symbol:   variable answer
+  location: class Quesbank
+Quesbank.java:129: error: non-static variable answers cannot be referenced from a static context
+                                        if(answers[i].equals(answer)){
+                                           ^
+Quesbank.java:129: error: array required, but ArrayList<String> found
+                                        if(answers[i].equals(answer)){
+                                                  ^
+7 errors
+
+C:\Users\admin\Desktop\01 Information>javac Quesbank.java
+Quesbank.java:127: error: array required, but ArrayList<String> found
+                                        System.out.println(q.questions[i]);
+                                                                      ^
+Quesbank.java:129: error: cannot find symbol
+                                        if(q.answers[i].equals(answer)){
+                                                               ^
+  symbol:   variable answer
+  location: class Quesbank
+Quesbank.java:129: error: array required, but ArrayList<String> found
+                                        if(q.answers[i].equals(answer)){
+                                                    ^
+3 errors
+
+C:\Users\admin\Desktop\01 Information>javac Quesbank.java
+Quesbank.java:127: error: array required, but ArrayList<String> found
+                                        System.out.println(q.questions[i]);
+                                                                      ^
+Quesbank.java:129: error: cannot find symbol
+                                        if(q.answers.get(i).equals(answer)){
+                                                                   ^
+  symbol:   variable answer
+  location: class Quesbank
+2 errors
+
+C:\Users\admin\Desktop\01 Information>javac Quesbank.java
+
+C:\Users\admin\Desktop\01 Information>java Quesbank
+-|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|---
+
+                                Welcome to test maker !
+
+-|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|---
+
+You are ?
+a. Admin
+b. User
+Enter: a
+
+Enter username: mayank
+Enter password: 12345
+
+
+-|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|---
+
+                                        Hi! Admin.
+
+-|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|---
+
+a. Add an admin
+b. Delete an admin
+c. Search for an admin
+d. Show all admins
+e. Add a question
+f. Delete a question
+g. Show all questions
+Press q to go back..
+e
+
+Write your question: How much 5+5 = ?
+
+Add the answer: 10
+
+
+a. Add an admin
+b. Delete an admin
+c. Search for an admin
+d. Show all admins
+e. Add a question
+f. Delete a question
+g. Show all questions
+Press q to go back..
+e
+
+Write your question: What is value of 10/2 ?
+
+Add the answer: 5
+
+
+a. Add an admin
+b. Delete an admin
+c. Search for an admin
+d. Show all admins
+e. Add a question
+f. Delete a question
+g. Show all questions
+Press q to go back..
+e
+
+Write your question: 6+7-2 ?
+
+Add the answer: 11
+
+
+a. Add an admin
+b. Delete an admin
+c. Search for an admin
+d. Show all admins
+e. Add a question
+f. Delete a question
+g. Show all questions
+Press q to go back..
+^C
+C:\Users\admin\Desktop\01 Information>javac Quesbank.java
+Quesbank.java:145: error: while expected
+        }
+         ^
+Quesbank.java:149: error: illegal start of expression
+        }
+        ^
+2 errors
+
+C:\Users\admin\Desktop\01 Information>javac Quesbank.java
+Quesbank.java:145: error: cannot find symbol
+        } while(!choice.equals("q"));
+                 ^
+  symbol:   variable choice
+  location: class Quesbank
+1 error
+
+C:\Users\admin\Desktop\01 Information>javac Quesbank.java
+
+C:\Users\admin\Desktop\01 Information>java Quesbank
+-|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|---
+
+                                Welcome to test maker !
+
+-|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|---
+
+You are ?
+a. Admin
+b. User
+Enter: a
+
+Enter username: mayank
+Enter password: 12345
+
+
+-|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|---
+
+                                        Hi! Admin.
+
+-|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|---
+
+a. Add an admin
+b. Delete an admin
+c. Search for an admin
+d. Show all admins
+e. Add a question
+f. Delete a question
+g. Show all questions
+Press q to go back..
+q
+
+
+a. Add an admin
+b. Delete an admin
+c. Search for an admin
+d. Show all admins
+e. Add a question
+f. Delete a question
+g. Show all questions
+Press q to go back..
+^C
+C:\Users\admin\Desktop\01 Information>javac Quesbank.java
+
+C:\Users\admin\Desktop\01 Information>java Quesbank
+-|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|---
+
+                                Welcome to test maker !
+
+-|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|---
+
+You are ?
+a. Admin
+b. User
+Enter: a
+
+Enter username: maya
+Enter password: 1235
+
+
+-|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|---
+
+                                        Hi! Admin.
+
+-|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|---
+
+a. Add an admin
+b. Delete an admin
+c. Search for an admin
+d. Show all admins
+e. Add a question
+f. Delete a question
+g. Show all questions
+Press q to go back..
+q
+
+
+You are ?
+a. Admin
+b. User
+Enter: mayank123
+
+
+You are ?
+a. Admin
+b. User
+Enter: a
+
+Enter username: mayank123
+Enter password: 1234
+
+
+-|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|---
+
+                                        Hi! Admin.
+
+-|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|---
+
+a. Add an admin
+b. Delete an admin
+c. Search for an admin
+d. Show all admins
+e. Add a question
+f. Delete a question
+g. Show all questions
+Press q to go back..
+e
+
+Write your question: 5+5?
+
+Add the answer: 10
+
+
+a. Add an admin
+b. Delete an admin
+c. Search for an admin
+d. Show all admins
+e. Add a question
+f. Delete a question
+g. Show all questions
+Press q to go back..
+e
+
+Write your question: 10-2?
+
+Add the answer:
+
+
+a. Add an admin
+b. Delete an admin
+c. Search for an admin
+d. Show all admins
+e. Add a question
+f. Delete a question
+g. Show all questions
+Press q to go back..
+f
+
+Enter question Number: 2
+
+Question deleted successfully!
+
+a. Add an admin
+b. Delete an admin
+c. Search for an admin
+d. Show all admins
+e. Add a question
+f. Delete a question
+g. Show all questions
+Press q to go back..
+e
+
+Write your question: 10-2?
+
+Add the answer: 8
+
+
+a. Add an admin
+b. Delete an admin
+c. Search for an admin
+d. Show all admins
+e. Add a question
+f. Delete a question
+g. Show all questions
+Press q to go back..
+e
+
+Write your question: 10+3?
+
+Add the answer: 13
+
+
+a. Add an admin
+b. Delete an admin
+c. Search for an admin
+d. Show all admins
+e. Add a question
+f. Delete a question
+g. Show all questions
+Press q to go back..
+
+g
+[5+5?, 10-2?, 10+3?]
+
+
+a. Add an admin
+b. Delete an admin
+c. Search for an admin
+d. Show all admins
+e. Add a question
+f. Delete a question
+g. Show all questions
+Press q to go back..
+q
+
+
+You are ?
+a. Admin
+b. User
+Enter: b
+a. Math Exam
+b.Java Exam
+
+Choose Exam
+a
+
+There are 3 questions! All the best.5+5?
+Enter you answer: 10
+
+Correct answer.
+10-2?
+Enter you answer: 8
+
+Wrong answer.
+10+3?
+Enter you answer: 13
+
+Wrong answer.
+
+
+You are ?
+a. Admin
+b. User
+Enter: ^C
+C:\Users\admin\Desktop\01 Information>javac Quesbank.java
+
+C:\Users\admin\Desktop\01 Information>java Quesbank
+-|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|---
+
+                                Welcome to test maker !
+
+-|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|---
+
+You are ?
+a. Admin
+b. User
+Enter: a
+
+Enter username: mayank123
+Enter password: 12345
+
+
+-|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|---
+
+                                        Hi! Admin.
+
+-|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|---
+
+a. Add an admin
+b. Delete an admin
+c. Search for an admin
+d. Show all admins
+e. Add a question
+f. Delete a question
+g. Show all questions
+Press q to go back..
+e
+
+Write your question: 5+5?
+
+Add the answer: 10
+
+
+a. Add an admin
+b. Delete an admin
+c. Search for an admin
+d. Show all admins
+e. Add a question
+f. Delete a question
+g. Show all questions
+Press q to go back..
+e
+
+Write your question: 10-2
+
+Add the answer: 8
+
+
+a. Add an admin
+b. Delete an admin
+c. Search for an admin
+d. Show all admins
+e. Add a question
+f. Delete a question
+g. Show all questions
+Press q to go back..
+q
+
+
+You are ?
+a. Admin
+b. User
+Enter: b
+a. Math Exam
+b.Java Exam
+
+Choose Exam
+a
+
+There are 2 questions! All the best.
+5+5?
+Enter you answer: 10
+
+Your entered answer: 10
+
+Correct answer.
+10-2
+Enter you answer: 8
+
+Your entered answer: 8
+
+Correct answer.
+
+
+You are ?
+a. Admin
+b. User
+Enter: ^C
+C:\Users\admin\Desktop\01 Information>javac Quesbank.java
+
+C:\Users\admin\Desktop\01 Information>java Quesbank
+-|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|---
+
+                                Welcome to test maker !
+
+-|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|---
+
+You are ?
+a. Admin
+b. User
+Enter: a
+
+Enter username: mayank123
+Enter password: 12345
+
+
+-|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|---
+
+                                        Hi! Admin.
+
+-|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|---
+
+a. Add an admin
+b. Delete an admin
+c. Search for an admin
+d. Show all admins
+e. Add a question
+f. Delete a question
+g. Show all questions
+Press q to go back..
+e
+
+Write your question: 5+5?
+
+Add the answer: 10
+
+
+a. Add an admin
+b. Delete an admin
+c. Search for an admin
+d. Show all admins
+e. Add a question
+f. Delete a question
+g. Show all questions
+Press q to go back..
+e
+
+Write your question: 10-2?
+
+Add the answer: 8
+
+
+a. Add an admin
+b. Delete an admin
+c. Search for an admin
+d. Show all admins
+e. Add a question
+f. Delete a question
+g. Show all questions
+Press q to go back..
+e
+
+Write your question: 12/3
+
+Add the answer: 4
+
+
+a. Add an admin
+b. Delete an admin
+c. Search for an admin
+d. Show all admins
+e. Add a question
+f. Delete a question
+g. Show all questions
+Press q to go back..
+q
+
+
+You are ?
+a. Admin
+b. User
+Enter: b
+a. Math Exam
+b.Java Exam
+
+Choose Exam
+a
+
+There are 3 questions! All the best.
+5+5?
+Enter you answer: 10
+
+Your entered answer: 10
+
+Correct answer.
+10-2?
+Enter you answer: 8
+
+Your entered answer: 8
+
+Correct answer.
+12/3
+Enter you answer: 2
+
+Your entered answer: 2
+
+Wrong answer.
+
+
+Your Score is 2 out 3
+
+You are ?
+a. Admin
+b. User
+Enter:
